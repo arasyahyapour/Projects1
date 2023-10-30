@@ -1,0 +1,5 @@
+a = float(input("kg: "))
+b = 1000
+c = a * b
+print("gram = ")
+print(c)
