@@ -1,0 +1,13 @@
+num1 = int(input("enter the number 1 :"))
+num2 = int(input("enter the number 2 :"))
+amalgar = input("bealaveh + \n menha - \n tavan  \n taghsim / \n zarb * \n : ")
+if amalgar == '+':
+    print (num1 + num2)
+elif amalgar == '-':
+    print (num1 - num2)
+elif amalgar == '*':
+    print (num1 * num2)
+elif amalgar == '':
+    print (num1 ** num2)
+elif amalgar == '/':
+    print (num1 / num2)
